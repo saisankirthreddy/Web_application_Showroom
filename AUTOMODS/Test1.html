@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+$sql = "SELECT Model, Company, Price FROM Cardetails";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<br> Model: ". $row["Model"]. " - Company: ". $row["Company"]. " " . $row["Price"] . "<br>";
+    }
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+?>
+
+</body>
+</html>

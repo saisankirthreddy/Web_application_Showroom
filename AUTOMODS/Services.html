@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" href="Service.css">
+<title>Service Portal</title>
+<h1>Welcome to Automods Service Portal</h1>
+</head>
+<body>
+<form action="http://localhost/billing_information.html" method="post">
+  <label for="ServiceName">ServiceName:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="CustomerID">CustomerID:</label><br>
+  <input type="number" id="CustomerID" name="CustomerID" required><br><br>
+  <label for="ServiceType">ServiceType:</label>
+  <select id="ServiceType" name="ServiceType" required><br><br>
+  <option value="" title="Select the service Type">SELECT</option>
+  <option value="Basic">Basic</option>
+  <option value="Moderate">Moderate</option>
+  <option value="Advance">Advance</option>
+  </select><br><br>
+  <input type="SUBMIT">
+</form>
+<a href="http://localhost/groupbyservices.php">Service Discounts Details</a>
+</body>
+</html>

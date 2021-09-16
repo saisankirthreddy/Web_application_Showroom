@@ -1,0 +1,36 @@
+<Doctype! html>
+<html>
+<head>
+<link rel="stylesheet" href="AutoSelect.css">
+<title>Automobile Info</title>
+<h1><i>Automobile Selection<i></h1>
+</head>
+<body>
+<form method="POST" action="http://localhost/autodisp.php">
+<label for="car type">Car type</label><br>
+<select name="car type" id="cartype">
+ <option value="Select">Select</option>
+ <option value="SUV">SUV</option>
+ <option value="Sedan">Sedan</option>
+ <option value="Sports">Sports</option>
+ <option value="Hatchback">Hatchback</option>
+</select><br><br>
+<label for="company">Company</label><br>
+<input type="text" id="company" name="Company" required><br><br>
+<!-- <label for="carmodel">Model</label><br>
+<input type="text" id="carmodel" name="Model" required><br><br> -->
+<label for="releaseyear">Release Year</label><br> 
+<input type="text" id="name" name="name" required><br><br>
+<!-- <label for="chassisnumber">Chassis Number</label><br>
+<input type="text" id="chassisnumber" name="Chassis Number" required><br><br> -->
+<!--<label for="Bprice">Base Price</label><br>
+<input type="text" id="Bprice" name="BPrice" readonly><br><br>
+<label for="Maxprice">Max Price</label><br>
+<input type="text" id="Maxprice" name="MaxPrice" readonly><br><br> -->
+<input type="submit"> 
+</form><br><br>
+<div>
+<a href="http://localhost/groupby.php">Car Discount Details</a> 
+</div>
+</body>
+</html>

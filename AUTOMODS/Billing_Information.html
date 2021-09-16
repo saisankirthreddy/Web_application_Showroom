@@ -1,0 +1,43 @@
+<Doctype! html>
+<html>
+<head>
+<link rel="stylesheet" href="Billing.css">
+<title>Billing Portal</title>
+<h1><i>Billing Portal</h1>
+</head>
+<body>
+<form method="post" action="http://localhost/billing.php">
+  <label for="stype">Purpose</label>
+  <select id="stype" name="stype"><br><br>
+  <option value="purpose" title="Select the purpose of your visit">Select</option>
+  <option value="buy">BUY</option>
+  <option value="sell">SELL</option>
+  <option value="service">SERVICE</option>
+  </select><br><br>
+  
+  <label for="Ctype">Cost Type</label>
+  <select id="Ctype" name="Ctype"><br><br>
+  <option value="Selecttype"">Select</option>
+  <option value="carcost">Car Cost</option>
+  <option value="servicescost">Services Cost</option>
+  <option value="salevalue">Sale Value</option>
+  </select><br><br>
+  
+  <label for="billid">Billing ID:</label><br>
+  <input type="text" id="billid" name="billid"><br><br>
+  <label for="custid">Customer ID:</label><br>
+  <input type="text" id="custid" name="custid"><br><br>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="phnum">Phone Number:</label><br>
+  <input type="number" id="phnum" name="phnum"><br><br>
+  <label for="TotalAmount">Total Amount to be Paid</label><br>
+  <input type="text" id="TotalAmount" name="TotalAmount"><br><br>
+  <input type="submit" href="http://localhost/Submit.html"> 
+</form>
+</body>
+</html>

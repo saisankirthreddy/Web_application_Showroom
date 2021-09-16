@@ -1,0 +1,21 @@
+*{
+text-align:center;
+}
+
+h1{
+color:goldenrod;
+padding-top:170px;
+font-size:81px;
+}
+
+body{
+color:snow;
+background-image: url("sample.jpg");
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+div{
+font-size:20px;
+}

@@ -1,0 +1,21 @@
+*{
+text-align:Center;
+}
+
+h1{
+color:goldenrod;
+padding-top:140px;
+font-size:41px;
+}
+
+form{
+color:white;
+font-size:18px;
+}
+
+body{
+background-image:url("CP.jpg");
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+}
